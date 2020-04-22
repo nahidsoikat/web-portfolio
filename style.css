@@ -1,0 +1,21 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 35px;
+}
+.name{
+    color: gold;
+}
+.names{
+    color: green;
+}
+.full{
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding: 2%;
+}
+.full img{
+    width: 100%;
+}
