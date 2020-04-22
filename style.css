@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -17,5 +18,51 @@ h1{
     padding: 2%;
 }
 .full img{
-    width: 100%;
+    width: 80%;
 }
+.top{
+    background-image: url("photos/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.but{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: 700;
+}.sec{
+    background-image: url("photos/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    width: 35%;
+    background-color: white;
+}
+.area{
+    background-image: url("photos/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+ #stack{
+     border-left: 7px solid;
+     border-image: linear-gradient (120deg,lightsalmon , tomato);
+     border-image-slice: 1;
+ }
+ #baby{
+    border-left: 7px solid;
+    border-image: linear-gradient (120deg,blue, cyan );
+    border-image-slice: 1;
+ }
+ footer p{
+     text-align: center;
+     font-size: 14px;
+ }
